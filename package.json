@@ -1,0 +1,24 @@
+{
+  "name": "icelcd",
+  "version": "0.1.0",
+  "description": "Working with LCDs (Liquid Crystal Displays)",
+  "keywords": ["LCD", "Display", "controller"],
+  "license": "GPL-2.0",
+  "authors": [{
+    "name": "Carlos Venegas (Cavearr)",
+    "email": "",
+    "url": "https://github.com/cavearr"
+  },
+  {
+    "name": "Juan Gonzalez-Gomez (Obijuan)",
+    "email": "",
+    "url": "https://github.com/Obijuan"
+  }],
+  "contributors": [],
+  "repository": {
+    "type": "git",
+    "branch": "main",
+    "url": "https://github.com/FPGAwars/iceLCD"
+  }
+}
+
