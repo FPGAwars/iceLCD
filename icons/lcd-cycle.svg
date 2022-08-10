@@ -25,8 +25,8 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="1.1893044"
-     inkscape:cx="229.54594"
-     inkscape:cy="242.57877"
+     inkscape:cx="253.92994"
+     inkscape:cy="268.64443"
      inkscape:window-width="1858"
      inkscape:window-height="1016"
      inkscape:window-x="62"
@@ -541,6 +541,6 @@
          x="63.059551"
          y="170.9256">Cycle</tspan></text><path
        style="fill:none;stroke:#008000;stroke-width:3.96875;stroke-linecap:round;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-       d="m 47.925016,141.01842 5.47121,-20.41884 h 48.900604 l 5.61751,20.41884 h 55.04232"
+       d="m 162.95666,141.01842 -29.21587,-0.20708 -5.61751,-20.41884 H 79.222673 l -5.47121,20.41884 -25.826447,0.20708"
        id="path6921"
-       sodipodi:nodetypes="ccccc" /></g></svg>
+       sodipodi:nodetypes="cccccc" /></g></svg>
