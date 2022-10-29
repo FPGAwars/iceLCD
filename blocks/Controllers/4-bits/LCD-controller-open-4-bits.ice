@@ -1,12 +1,12 @@
 {
   "version": "1.2",
   "package": {
-    "name": "LCD-controller-open-4-bits",
-    "version": "0.3",
-    "description": "LCD-controller-open-4-bits: Controlador de LCD en bucle abierto con interfaz de 4-bits",
+    "name": "LCD-write-open-4bits",
+    "version": "0.4",
+    "description": "LCD-write-open-4-bits: Controlador de escritura, en bucle abierto, de un LCD con interfaz de 4 bits",
     "author": "Juan González-Gómez (Obijuan)",
-    "image": "%3Csvg%20width=%22582.772%22%20height=%22514.404%22%20viewBox=%220%200%20154.1918%20136.10265%22%20xmlns=%22http://www.w3.org/2000/svg%22%3E%3Cg%20transform=%22translate(-30.881%20-39.646)%22%3E%3Cpath%20d=%22M162.957%20104.088c0%203.014-1.96%202.635-3.282%202.635H50.325c-1.322%200-2.4-1.094-2.4-4.108V42.693c0-3.022%201.078-2.572%202.4-2.572h109.35c1.322%200%203.282-.442%203.282%202.572z%22%20fill=%22#87ad34%22%20stroke=%22#303030%22%20stroke-width=%22.876%22/%3E%3Cpath%20d=%22M56.314%2048.49h6.08v6.219h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M62.395%2048.49h6.08v6.219h-6.08zm6.08%200h6.073v6.219h-6.072zm6.082%200h6.064v6.219h-6.064zm6.064%200h6.081v6.219H80.63z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M56.314%2054.718h6.08v6.211h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M62.395%2054.718h6.08v6.211h-6.08zm6.08%200h6.073v6.211h-6.072zm6.082%200h6.064v6.211h-6.064zm6.064%200h6.081v6.211H80.63z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M56.314%2060.929h6.08v6.229h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M62.395%2060.929h6.08v6.229h-6.08zm6.08%200h6.073v6.229h-6.072zm6.082%200h6.064v6.229h-6.064zm6.064%200h6.081v6.229H80.63z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M56.314%2067.158h6.08v6.228h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M62.395%2067.158h6.08v6.228h-6.08zm6.08%200h6.073v6.228h-6.072zm6.082%200h6.064v6.228h-6.064zm6.064%200h6.081v6.228H80.63z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M56.314%2073.386h6.08v6.229h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M62.395%2073.386h6.08v6.229h-6.08zm6.08%200h6.073v6.229h-6.072zm6.082%200h6.064v6.229h-6.064zm6.064%200h6.081v6.229H80.63z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M56.314%2079.615h6.08v6.22h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M62.395%2079.615h6.08v6.22h-6.08zm6.08%200h6.073v6.22h-6.072zm6.082%200h6.064v6.22h-6.064zm6.064%200h6.081v6.22H80.63z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M56.314%2085.835h6.08v6.228h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M62.395%2085.835h6.08v6.228h-6.08zm6.08%200h6.073v6.228h-6.072zm6.082%200h6.064v6.228h-6.064zm6.064%200h6.081v6.228H80.63z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M56.314%2092.063h6.08v6.22h-6.08zm6.08%200h6.082v6.22h-6.081zm6.082%200h6.072v6.22h-6.072zm6.08%200h6.065v6.22h-6.064zm6.065%200h6.081v6.22H80.63z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M89.743%2048.49h6.08v6.219h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M95.824%2048.49h6.072v6.219h-6.072zm6.072%200h6.081v6.219h-6.08zm6.081%200h6.081v6.219h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M114.058%2048.49h6.073v6.219h-6.073z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M89.743%2054.718h6.08v6.211h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M95.824%2054.718h6.072v6.211h-6.072zm6.072%200h6.081v6.211h-6.08zm6.081%200h6.081v6.211h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M114.058%2054.718h6.073v6.211h-6.073zm-24.315%206.211h6.08v6.229h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M95.824%2060.929h6.072v6.229h-6.072zm6.072%200h6.081v6.229h-6.08zm6.081%200h6.081v6.229h-6.08zm6.081%200h6.073v6.229h-6.073z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M89.743%2067.158h6.08v6.228h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M95.824%2067.158h6.072v6.228h-6.072zm6.072%200h6.081v6.228h-6.08zm6.081%200h6.081v6.228h-6.08zm6.081%200h6.073v6.228h-6.073z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M89.743%2073.386h6.08v6.229h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M95.824%2073.386h6.072v6.229h-6.072zm6.072%200h6.081v6.229h-6.08zm6.081%200h6.081v6.229h-6.08zm6.081%200h6.073v6.229h-6.073z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M89.743%2079.615h6.08v6.22h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M95.824%2079.615h6.072v6.22h-6.072zm6.072%200h6.081v6.22h-6.08zm6.081%200h6.081v6.22h-6.08zm6.081%200h6.073v6.22h-6.073z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M89.743%2085.835h6.08v6.228h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M95.824%2085.835h6.072v6.228h-6.072zm6.072%200h6.081v6.228h-6.08zm6.081%200h6.081v6.228h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M114.058%2085.835h6.073v6.228h-6.073z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M89.743%2092.063h6.08v6.22h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M95.824%2092.063h6.072v6.22h-6.072zm6.072%200h6.081v6.22h-6.08zm6.081%200h6.081v6.22h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M114.058%2092.063h6.073v6.22h-6.073z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M123.172%2048.49h6.08v6.219h-6.08zm6.08%200h6.073v6.219h-6.072zm6.073%200h6.081v6.219h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M141.406%2048.49h6.073v6.219h-6.073zM147.479%2048.49h6.08v6.219h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M123.172%2054.718h6.08v6.211h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M129.253%2054.718h6.072v6.211h-6.072zm6.072%200h6.081v6.211h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M141.406%2054.718h6.073v6.211h-6.073z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M147.479%2054.718h6.08v6.211h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M123.172%2060.929h6.08v6.229h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M129.253%2060.929h6.072v6.229h-6.072zm6.072%200h6.081v6.229h-6.08zm6.081%200h6.073v6.229h-6.073z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M147.479%2060.929h6.08v6.229h-6.08zm-24.307%206.229h6.08v6.228h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M129.253%2067.158h6.072v6.228h-6.072zm6.072%200h6.081v6.228h-6.08zm6.081%200h6.073v6.228h-6.073z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M147.479%2067.158h6.08v6.228h-6.08zm-24.307%206.228h6.08v6.229h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M129.253%2073.386h6.072v6.229h-6.072zm6.072%200h6.081v6.229h-6.08zm6.081%200h6.073v6.229h-6.073z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M147.479%2073.386h6.08v6.229h-6.08zm-24.307%206.229h6.08v6.22h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M129.253%2079.615h6.072v6.22h-6.072zm6.072%200h6.081v6.22h-6.08zm6.081%200h6.073v6.22h-6.073z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M147.479%2079.615h6.08v6.22h-6.08zm-24.307%206.22h6.08v6.228h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M129.253%2085.835h6.072v6.228h-6.072zm6.072%200h6.081v6.228h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M141.406%2085.835h6.073v6.228h-6.073z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M147.479%2085.835h6.08v6.228h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M123.172%2092.063h6.08v6.22h-6.08zm6.08%200h6.073v6.22h-6.072zm6.073%200h6.081v6.22h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M141.406%2092.063h6.073v6.22h-6.073zM147.479%2092.063h6.08v6.22h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Ctext%20style=%22line-height:1.25%22%20x=%2229.509%22%20y=%22140.759%22%20font-size=%2227.558%22%20font-family=%22sans-serif%22%20fill=%22#00f%22%20stroke-width=%22.689%22%3E%3Ctspan%20style=%22-inkscape-font-specification:'sans-serif%20Bold'%22%20x=%2229.509%22%20y=%22140.759%22%20font-weight=%22700%22%3EController%3C/tspan%3E%3C/text%3E%3Ctext%20style=%22line-height:1.25%22%20x=%2263.874%22%20y=%22169.801%22%20font-size=%2227.558%22%20font-family=%22sans-serif%22%20fill=%22#00f%22%20stroke-width=%22.689%22%3E%3Ctspan%20style=%22-inkscape-font-specification:'sans-serif%20Bold'%22%20x=%2263.874%22%20y=%22169.801%22%20font-weight=%22700%22%3EOpen%3C/tspan%3E%3C/text%3E%3Ccircle%20r=%2212.621%22%20cy=%22102.335%22%20cx=%22162.358%22%20fill=%22#fff%22%20stroke=%22green%22%20stroke-width=%22.527%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22/%3E%3Ctext%20y=%22109.323%22%20x=%22155.442%22%20style=%22line-height:0%25%22%20font-weight=%22400%22%20font-size=%2235.282%22%20letter-spacing=%220%22%20word-spacing=%220%22%20transform=%22scale(.99853%201.00147)%22%20font-family=%22sans-serif%22%20fill=%22#00f%22%20stroke-width=%22.654%22%3E%3Ctspan%20style=%22-inkscape-font-specification:'sans-serif%20Bold'%22%20y=%22109.323%22%20x=%22155.442%22%20font-weight=%22700%22%20font-size=%2220.162%22%3E0%3C/tspan%3E%3C/text%3E%3C/g%3E%3C/svg%3E",
-    "otid": 1666087588919
+    "image": "%3Csvg%20width=%22438.076%22%20height=%22365.454%22%20viewBox=%220%200%20115.90764%2096.692992%22%20xmlns=%22http://www.w3.org/2000/svg%22%3E%3Cpath%20d=%22M115.47%2064.442c0%203.015-1.96%202.635-3.282%202.635H2.838c-1.322%200-2.4-1.094-2.4-4.108V3.047C.438.026%201.516.475%202.838.475h109.35c1.322%200%203.282-.442%203.282%202.572z%22%20fill=%22#87ad34%22%20stroke=%22#303030%22%20stroke-width=%22.876%22/%3E%3Cpath%20d=%22M8.827%208.843h6.08v6.22h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M14.908%208.843h6.08v6.22h-6.08zm6.08%200h6.073v6.22H20.99zm6.082%200h6.064v6.22H27.07zm6.064%200h6.081v6.22h-6.072z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M8.827%2015.072h6.08v6.211h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M14.908%2015.072h6.08v6.211h-6.08zm6.08%200h6.073v6.211H20.99zm6.082%200h6.064v6.211H27.07zm6.064%200h6.081v6.211h-6.072z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M8.827%2021.283h6.08v6.229h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M14.908%2021.283h6.08v6.229h-6.08zm6.08%200h6.073v6.229H20.99zm6.082%200h6.064v6.229H27.07zm6.064%200h6.081v6.229h-6.072z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M8.827%2027.512h6.08v6.228h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M14.908%2027.512h6.08v6.228h-6.08zm6.08%200h6.073v6.228H20.99zm6.082%200h6.064v6.228H27.07zm6.064%200h6.081v6.228h-6.072z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M8.827%2033.74h6.08v6.229h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M14.908%2033.74h6.08v6.229h-6.08zm6.08%200h6.073v6.229H20.99zm6.082%200h6.064v6.229H27.07zm6.064%200h6.081v6.229h-6.072z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M8.827%2039.969h6.08v6.22h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M14.908%2039.969h6.08v6.22h-6.08zm6.08%200h6.073v6.22H20.99zm6.082%200h6.064v6.22H27.07zm6.064%200h6.081v6.22h-6.072z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M8.827%2046.189h6.08v6.228h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M14.908%2046.189h6.08v6.228h-6.08zm6.08%200h6.073v6.228H20.99zm6.082%200h6.064v6.228H27.07zm6.064%200h6.081v6.228h-6.072z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M8.827%2052.417h6.08v6.22h-6.08zm6.08%200h6.082v6.22h-6.081zm6.082%200h6.072v6.22H20.99zm6.08%200h6.065v6.22H27.07zm6.065%200h6.081v6.22h-6.072z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M42.256%208.843h6.08v6.22h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M48.337%208.843h6.072v6.22h-6.072zm6.072%200h6.081v6.22h-6.08zm6.081%200h6.081v6.22h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M66.571%208.843h6.073v6.22h-6.073z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M42.256%2015.072h6.08v6.211h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M48.337%2015.072h6.072v6.211h-6.072zm6.072%200h6.081v6.211h-6.08zm6.081%200h6.081v6.211h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M66.571%2015.072h6.073v6.211h-6.073zm-24.315%206.211h6.08v6.229h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M48.337%2021.283h6.072v6.229h-6.072zm6.072%200h6.081v6.229h-6.08zm6.081%200h6.081v6.229h-6.08zm6.081%200h6.073v6.229h-6.073z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M42.256%2027.512h6.08v6.228h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M48.337%2027.512h6.072v6.228h-6.072zm6.072%200h6.081v6.228h-6.08zm6.081%200h6.081v6.228h-6.08zm6.081%200h6.073v6.228h-6.073z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M42.256%2033.74h6.08v6.229h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M48.337%2033.74h6.072v6.229h-6.072zm6.072%200h6.081v6.229h-6.08zm6.081%200h6.081v6.229h-6.08zm6.081%200h6.073v6.229h-6.073z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M42.256%2039.969h6.08v6.22h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M48.337%2039.969h6.072v6.22h-6.072zm6.072%200h6.081v6.22h-6.08zm6.081%200h6.081v6.22h-6.08zm6.081%200h6.073v6.22h-6.073z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M42.256%2046.189h6.08v6.228h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M48.337%2046.189h6.072v6.228h-6.072zm6.072%200h6.081v6.228h-6.08zm6.081%200h6.081v6.228h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M66.571%2046.189h6.073v6.228h-6.073z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M42.256%2052.417h6.08v6.22h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M48.337%2052.417h6.072v6.22h-6.072zm6.072%200h6.081v6.22h-6.08zm6.081%200h6.081v6.22h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M66.571%2052.417h6.073v6.22h-6.073z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M75.685%208.843h6.08v6.22h-6.08zm6.08%200h6.073v6.22h-6.072zm6.073%200h6.081v6.22h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M93.92%208.843h6.072v6.22h-6.073zM99.992%208.843h6.08v6.22h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M75.685%2015.072h6.08v6.211h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M81.766%2015.072h6.072v6.211h-6.072zm6.072%200h6.081v6.211h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M93.92%2015.072h6.072v6.211h-6.073z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M99.992%2015.072h6.08v6.211h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M75.685%2021.283h6.08v6.229h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M81.766%2021.283h6.072v6.229h-6.072zm6.072%200h6.081v6.229h-6.08zm6.081%200h6.073v6.229h-6.073z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M99.992%2021.283h6.08v6.229h-6.08zm-24.307%206.229h6.08v6.228h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M81.766%2027.512h6.072v6.228h-6.072zm6.072%200h6.081v6.228h-6.08zm6.081%200h6.073v6.228h-6.073z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M99.992%2027.512h6.08v6.228h-6.08zM75.685%2033.74h6.08v6.229h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M81.766%2033.74h6.072v6.229h-6.072zm6.072%200h6.081v6.229h-6.08zm6.081%200h6.073v6.229h-6.073z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M99.992%2033.74h6.08v6.229h-6.08zM75.685%2039.97h6.08v6.22h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M81.766%2039.969h6.072v6.22h-6.072zm6.072%200h6.081v6.22h-6.08zm6.081%200h6.073v6.22h-6.073z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M99.992%2039.969h6.08v6.22h-6.08zm-24.307%206.22h6.08v6.228h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M81.766%2046.189h6.072v6.228h-6.072zm6.072%200h6.081v6.228h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M93.92%2046.189h6.072v6.228h-6.073z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M99.992%2046.189h6.08v6.228h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M75.685%2052.417h6.08v6.22h-6.08zm6.08%200h6.073v6.22h-6.072zm6.073%200h6.081v6.22h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M93.92%2052.417h6.072v6.22h-6.073zM99.992%2052.417h6.08v6.22h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Ctext%20style=%22line-height:1.25%22%20x=%2263.195%22%20y=%22135.949%22%20font-size=%2227.558%22%20font-family=%22sans-serif%22%20fill=%22#00f%22%20stroke-width=%22.689%22%20transform=%22translate(-47.487%20-39.646)%22%3E%3Ctspan%20style=%22-inkscape-font-specification:'sans-serif%20Bold'%22%20x=%2263.195%22%20y=%22135.949%22%20font-weight=%22700%22%3EWrite%3C/tspan%3E%3C/text%3E%3C/svg%3E",
+    "otid": 1661596668464
   },
   "design": {
     "board": "alhambra-ii",
@@ -17,15 +17,7 @@
           "type": "basic.outputLabel",
           "data": {
             "name": "busy3",
-            "blockColor": "navy",
-            "virtual": true,
-            "pins": [
-              {
-                "index": "0",
-                "name": "NULL",
-                "value": "NULL"
-              }
-            ]
+            "blockColor": "navy"
           },
           "position": {
             "x": 1920,
@@ -37,15 +29,7 @@
           "type": "basic.inputLabel",
           "data": {
             "name": "busy",
-            "blockColor": "navy",
-            "virtual": true,
-            "pins": [
-              {
-                "index": "0",
-                "name": "NULL",
-                "value": "NULL"
-              }
-            ]
+            "blockColor": "navy"
           },
           "position": {
             "x": 2216,
@@ -57,15 +41,7 @@
           "type": "basic.outputLabel",
           "data": {
             "name": "busy_ini",
-            "blockColor": "navy",
-            "virtual": true,
-            "pins": [
-              {
-                "index": "0",
-                "name": "NULL",
-                "value": "NULL"
-              }
-            ]
+            "blockColor": "navy"
           },
           "position": {
             "x": 1920,
@@ -76,15 +52,7 @@
           "id": "4e8afe74-8f38-4873-97ee-f7585d99a4aa",
           "type": "basic.output",
           "data": {
-            "name": "busy",
-            "virtual": true,
-            "pins": [
-              {
-                "index": "0",
-                "name": "NULL",
-                "value": "NULL"
-              }
-            ]
+            "name": "busy"
           },
           "position": {
             "x": 2528,
@@ -96,15 +64,7 @@
           "type": "basic.outputLabel",
           "data": {
             "name": "busy",
-            "blockColor": "navy",
-            "virtual": true,
-            "pins": [
-              {
-                "index": "0",
-                "name": "NULL",
-                "value": "NULL"
-              }
-            ]
+            "blockColor": "navy"
           },
           "position": {
             "x": 2392,
@@ -129,15 +89,7 @@
           "type": "basic.inputLabel",
           "data": {
             "name": "busy3",
-            "blockColor": "navy",
-            "virtual": true,
-            "pins": [
-              {
-                "index": "0",
-                "name": "NULL",
-                "value": "NULL"
-              }
-            ]
+            "blockColor": "navy"
           },
           "position": {
             "x": 1792,
@@ -149,15 +101,7 @@
           "type": "basic.inputLabel",
           "data": {
             "name": "rs",
-            "blockColor": "fuchsia",
-            "virtual": true,
-            "pins": [
-              {
-                "index": "0",
-                "name": "NULL",
-                "value": "NULL"
-              }
-            ]
+            "blockColor": "fuchsia"
           },
           "position": {
             "x": 1816,
@@ -193,15 +137,7 @@
           "type": "basic.outputLabel",
           "data": {
             "name": "E",
-            "blockColor": "lightgray",
-            "virtual": true,
-            "pins": [
-              {
-                "index": "0",
-                "name": "NULL",
-                "value": "NULL"
-              }
-            ]
+            "blockColor": "lightgray"
           },
           "position": {
             "x": 2224,
@@ -213,15 +149,7 @@
           "type": "basic.outputLabel",
           "data": {
             "name": "rs2",
-            "blockColor": "fuchsia",
-            "virtual": true,
-            "pins": [
-              {
-                "index": "0",
-                "name": "NULL",
-                "value": "NULL"
-              }
-            ]
+            "blockColor": "fuchsia"
           },
           "position": {
             "x": 1440,
@@ -233,25 +161,8 @@
           "type": "basic.output",
           "data": {
             "name": "ctrl",
-            "virtual": true,
             "range": "[2:0]",
-            "pins": [
-              {
-                "index": "2",
-                "name": "NULL",
-                "value": "NULL"
-              },
-              {
-                "index": "1",
-                "name": "NULL",
-                "value": "NULL"
-              },
-              {
-                "index": "0",
-                "name": "NULL",
-                "value": "NULL"
-              }
-            ]
+            "size": 3
           },
           "position": {
             "x": 2536,
@@ -263,15 +174,7 @@
           "type": "basic.outputLabel",
           "data": {
             "name": "cmd2",
-            "blockColor": "fuchsia",
-            "virtual": true,
-            "pins": [
-              {
-                "index": "0",
-                "name": "NULL",
-                "value": "NULL"
-              }
-            ]
+            "blockColor": "fuchsia"
           },
           "position": {
             "x": 1440,
@@ -283,15 +186,7 @@
           "type": "basic.inputLabel",
           "data": {
             "name": "E",
-            "blockColor": "lightgray",
-            "virtual": true,
-            "pins": [
-              {
-                "index": "0",
-                "name": "NULL",
-                "value": "NULL"
-              }
-            ]
+            "blockColor": "lightgray"
           },
           "position": {
             "x": 1856,
@@ -303,15 +198,7 @@
           "type": "basic.inputLabel",
           "data": {
             "name": "busy2",
-            "blockColor": "navy",
-            "virtual": true,
-            "pins": [
-              {
-                "index": "0",
-                "name": "NULL",
-                "value": "NULL"
-              }
-            ]
+            "blockColor": "navy"
           },
           "position": {
             "x": 1088,
@@ -323,15 +210,7 @@
           "type": "basic.outputLabel",
           "data": {
             "name": "rs",
-            "blockColor": "fuchsia",
-            "virtual": true,
-            "pins": [
-              {
-                "index": "0",
-                "name": "NULL",
-                "value": "NULL"
-              }
-            ]
+            "blockColor": "fuchsia"
           },
           "position": {
             "x": 2224,
@@ -343,15 +222,7 @@
           "type": "basic.inputLabel",
           "data": {
             "name": "cmd",
-            "blockColor": "fuchsia",
-            "virtual": true,
-            "pins": [
-              {
-                "index": "0",
-                "name": "NULL",
-                "value": "NULL"
-              }
-            ]
+            "blockColor": "fuchsia"
           },
           "position": {
             "x": 1128,
@@ -376,15 +247,7 @@
           "type": "basic.inputLabel",
           "data": {
             "name": "rw",
-            "blockColor": "fuchsia",
-            "virtual": true,
-            "pins": [
-              {
-                "index": "0",
-                "name": "NULL",
-                "value": "NULL"
-              }
-            ]
+            "blockColor": "fuchsia"
           },
           "position": {
             "x": 1864,
@@ -398,49 +261,7 @@
             "name": "din2",
             "range": "[7:0]",
             "blockColor": "royalblue",
-            "virtual": true,
-            "pins": [
-              {
-                "index": "7",
-                "name": "NULL",
-                "value": "NULL"
-              },
-              {
-                "index": "6",
-                "name": "NULL",
-                "value": "NULL"
-              },
-              {
-                "index": "5",
-                "name": "NULL",
-                "value": "NULL"
-              },
-              {
-                "index": "4",
-                "name": "NULL",
-                "value": "NULL"
-              },
-              {
-                "index": "3",
-                "name": "NULL",
-                "value": "NULL"
-              },
-              {
-                "index": "2",
-                "name": "NULL",
-                "value": "NULL"
-              },
-              {
-                "index": "1",
-                "name": "NULL",
-                "value": "NULL"
-              },
-              {
-                "index": "0",
-                "name": "NULL",
-                "value": "NULL"
-              }
-            ]
+            "size": 8
           },
           "position": {
             "x": 1456,
@@ -452,15 +273,7 @@
           "type": "basic.outputLabel",
           "data": {
             "name": "rw",
-            "blockColor": "fuchsia",
-            "virtual": true,
-            "pins": [
-              {
-                "index": "0",
-                "name": "NULL",
-                "value": "NULL"
-              }
-            ]
+            "blockColor": "fuchsia"
           },
           "position": {
             "x": 2224,
@@ -472,14 +285,6 @@
           "type": "basic.input",
           "data": {
             "name": "rs",
-            "virtual": true,
-            "pins": [
-              {
-                "index": "0",
-                "name": "NULL",
-                "value": "NULL"
-              }
-            ],
             "clock": false
           },
           "position": {
@@ -492,15 +297,7 @@
           "type": "basic.inputLabel",
           "data": {
             "name": "rs1",
-            "blockColor": "fuchsia",
-            "virtual": true,
-            "pins": [
-              {
-                "index": "0",
-                "name": "NULL",
-                "value": "NULL"
-              }
-            ]
+            "blockColor": "fuchsia"
           },
           "position": {
             "x": 360,
@@ -512,15 +309,7 @@
           "type": "basic.outputLabel",
           "data": {
             "name": "start",
-            "blockColor": "fuchsia",
-            "virtual": true,
-            "pins": [
-              {
-                "index": "0",
-                "name": "NULL",
-                "value": "NULL"
-              }
-            ]
+            "blockColor": "fuchsia"
           },
           "position": {
             "x": 680,
@@ -534,49 +323,7 @@
             "name": "din_ini",
             "range": "[7:0]",
             "blockColor": "royalblue",
-            "virtual": true,
-            "pins": [
-              {
-                "index": "7",
-                "name": "NULL",
-                "value": "NULL"
-              },
-              {
-                "index": "6",
-                "name": "NULL",
-                "value": "NULL"
-              },
-              {
-                "index": "5",
-                "name": "NULL",
-                "value": "NULL"
-              },
-              {
-                "index": "4",
-                "name": "NULL",
-                "value": "NULL"
-              },
-              {
-                "index": "3",
-                "name": "NULL",
-                "value": "NULL"
-              },
-              {
-                "index": "2",
-                "name": "NULL",
-                "value": "NULL"
-              },
-              {
-                "index": "1",
-                "name": "NULL",
-                "value": "NULL"
-              },
-              {
-                "index": "0",
-                "name": "NULL",
-                "value": "NULL"
-              }
-            ]
+            "size": 8
           },
           "position": {
             "x": 1136,
@@ -590,29 +337,7 @@
             "name": "dout",
             "range": "[3:0]",
             "blockColor": "royalblue",
-            "virtual": true,
-            "pins": [
-              {
-                "index": "3",
-                "name": "NULL",
-                "value": "NULL"
-              },
-              {
-                "index": "2",
-                "name": "NULL",
-                "value": "NULL"
-              },
-              {
-                "index": "1",
-                "name": "NULL",
-                "value": "NULL"
-              },
-              {
-                "index": "0",
-                "name": "NULL",
-                "value": "NULL"
-              }
-            ]
+            "size": 4
           },
           "position": {
             "x": 1848,
@@ -624,15 +349,7 @@
           "type": "basic.outputLabel",
           "data": {
             "name": "write2",
-            "blockColor": "red",
-            "virtual": true,
-            "pins": [
-              {
-                "index": "0",
-                "name": "NULL",
-                "value": "NULL"
-              }
-            ]
+            "blockColor": "red"
           },
           "position": {
             "x": 1464,
@@ -644,30 +361,8 @@
           "type": "basic.output",
           "data": {
             "name": "d",
-            "virtual": true,
             "range": "[3:0]",
-            "pins": [
-              {
-                "index": "3",
-                "name": "NULL",
-                "value": "NULL"
-              },
-              {
-                "index": "2",
-                "name": "NULL",
-                "value": "NULL"
-              },
-              {
-                "index": "1",
-                "name": "NULL",
-                "value": "NULL"
-              },
-              {
-                "index": "0",
-                "name": "NULL",
-                "value": "NULL"
-              }
-            ]
+            "size": 4
           },
           "position": {
             "x": 2536,
@@ -679,15 +374,7 @@
           "type": "basic.outputLabel",
           "data": {
             "name": "next",
-            "blockColor": "darkgreen",
-            "virtual": true,
-            "pins": [
-              {
-                "index": "0",
-                "name": "NULL",
-                "value": "NULL"
-              }
-            ]
+            "blockColor": "darkgreen"
           },
           "position": {
             "x": 680,
@@ -701,29 +388,7 @@
             "name": "dout",
             "range": "[3:0]",
             "blockColor": "royalblue",
-            "virtual": true,
-            "pins": [
-              {
-                "index": "3",
-                "name": "NULL",
-                "value": "NULL"
-              },
-              {
-                "index": "2",
-                "name": "NULL",
-                "value": "NULL"
-              },
-              {
-                "index": "1",
-                "name": "NULL",
-                "value": "NULL"
-              },
-              {
-                "index": "0",
-                "name": "NULL",
-                "value": "NULL"
-              }
-            ]
+            "size": 4
           },
           "position": {
             "x": 2384,
@@ -735,15 +400,7 @@
           "type": "basic.inputLabel",
           "data": {
             "name": "write_ini",
-            "blockColor": "red",
-            "virtual": true,
-            "pins": [
-              {
-                "index": "0",
-                "name": "NULL",
-                "value": "NULL"
-              }
-            ]
+            "blockColor": "red"
           },
           "position": {
             "x": 1112,
@@ -757,49 +414,7 @@
             "name": "din1",
             "range": "[7:0]",
             "blockColor": "royalblue",
-            "virtual": true,
-            "pins": [
-              {
-                "index": "7",
-                "name": "NULL",
-                "value": "NULL"
-              },
-              {
-                "index": "6",
-                "name": "NULL",
-                "value": "NULL"
-              },
-              {
-                "index": "5",
-                "name": "NULL",
-                "value": "NULL"
-              },
-              {
-                "index": "4",
-                "name": "NULL",
-                "value": "NULL"
-              },
-              {
-                "index": "3",
-                "name": "NULL",
-                "value": "NULL"
-              },
-              {
-                "index": "2",
-                "name": "NULL",
-                "value": "NULL"
-              },
-              {
-                "index": "1",
-                "name": "NULL",
-                "value": "NULL"
-              },
-              {
-                "index": "0",
-                "name": "NULL",
-                "value": "NULL"
-              }
-            ]
+            "size": 8
           },
           "position": {
             "x": 368,
@@ -811,51 +426,9 @@
           "type": "basic.input",
           "data": {
             "name": "d",
-            "virtual": true,
             "range": "[7:0]",
-            "pins": [
-              {
-                "index": "7",
-                "name": "NULL",
-                "value": "NULL"
-              },
-              {
-                "index": "6",
-                "name": "NULL",
-                "value": "NULL"
-              },
-              {
-                "index": "5",
-                "name": "NULL",
-                "value": "NULL"
-              },
-              {
-                "index": "4",
-                "name": "NULL",
-                "value": "NULL"
-              },
-              {
-                "index": "3",
-                "name": "NULL",
-                "value": "NULL"
-              },
-              {
-                "index": "2",
-                "name": "NULL",
-                "value": "NULL"
-              },
-              {
-                "index": "1",
-                "name": "NULL",
-                "value": "NULL"
-              },
-              {
-                "index": "0",
-                "name": "NULL",
-                "value": "NULL"
-              }
-            ],
-            "clock": false
+            "clock": false,
+            "size": 8
           },
           "position": {
             "x": 216,
@@ -867,15 +440,7 @@
           "type": "basic.inputLabel",
           "data": {
             "name": "next",
-            "blockColor": "darkgreen",
-            "virtual": true,
-            "pins": [
-              {
-                "index": "0",
-                "name": "NULL",
-                "value": "NULL"
-              }
-            ]
+            "blockColor": "darkgreen"
           },
           "position": {
             "x": 1976,
@@ -887,15 +452,7 @@
           "type": "basic.inputLabel",
           "data": {
             "name": "done_init",
-            "blockColor": "springgreen",
-            "virtual": true,
-            "pins": [
-              {
-                "index": "0",
-                "name": "NULL",
-                "value": "NULL"
-              }
-            ]
+            "blockColor": "springgreen"
           },
           "position": {
             "x": 1080,
@@ -906,15 +463,7 @@
           "id": "6066e5ea-fa58-4727-8b67-e9e86fb640b0",
           "type": "basic.output",
           "data": {
-            "name": "init_done",
-            "virtual": true,
-            "pins": [
-              {
-                "index": "0",
-                "name": "NULL",
-                "value": "NULL"
-              }
-            ]
+            "name": "init_done"
           },
           "position": {
             "x": 2536,
@@ -926,15 +475,7 @@
           "type": "basic.outputLabel",
           "data": {
             "name": "done_init",
-            "blockColor": "springgreen",
-            "virtual": true,
-            "pins": [
-              {
-                "index": "0",
-                "name": "NULL",
-                "value": "NULL"
-              }
-            ]
+            "blockColor": "springgreen"
           },
           "position": {
             "x": 2400,
@@ -946,15 +487,7 @@
           "type": "basic.inputLabel",
           "data": {
             "name": "write1",
-            "blockColor": "red",
-            "virtual": true,
-            "pins": [
-              {
-                "index": "0",
-                "name": "NULL",
-                "value": "NULL"
-              }
-            ]
+            "blockColor": "red"
           },
           "position": {
             "x": 368,
@@ -966,14 +499,6 @@
           "type": "basic.input",
           "data": {
             "name": "write",
-            "virtual": true,
-            "pins": [
-              {
-                "index": "0",
-                "name": "NULL",
-                "value": "NULL"
-              }
-            ],
             "clock": false
           },
           "position": {
@@ -986,15 +511,7 @@
           "type": "basic.outputLabel",
           "data": {
             "name": "busy_ini",
-            "blockColor": "navy",
-            "virtual": true,
-            "pins": [
-              {
-                "index": "0",
-                "name": "NULL",
-                "value": "NULL"
-              }
-            ]
+            "blockColor": "navy"
           },
           "position": {
             "x": 1664,
@@ -1005,15 +522,7 @@
           "id": "076fd796-3b96-4de8-9198-e6e8888b5ba8",
           "type": "basic.output",
           "data": {
-            "name": "done",
-            "virtual": true,
-            "pins": [
-              {
-                "index": "0",
-                "name": "NULL",
-                "value": "NULL"
-              }
-            ]
+            "name": "done"
           },
           "position": {
             "x": 2536,
@@ -1025,15 +534,7 @@
           "type": "basic.inputLabel",
           "data": {
             "name": "done",
-            "blockColor": "springgreen",
-            "virtual": true,
-            "pins": [
-              {
-                "index": "0",
-                "name": "NULL",
-                "value": "NULL"
-              }
-            ]
+            "blockColor": "springgreen"
           },
           "position": {
             "x": 1952,
@@ -1045,15 +546,7 @@
           "type": "basic.outputLabel",
           "data": {
             "name": "done",
-            "blockColor": "springgreen",
-            "virtual": true,
-            "pins": [
-              {
-                "index": "0",
-                "name": "NULL",
-                "value": "NULL"
-              }
-            ]
+            "blockColor": "springgreen"
           },
           "position": {
             "x": 2400,
@@ -1065,15 +558,7 @@
           "type": "basic.inputLabel",
           "data": {
             "name": "busy1",
-            "blockColor": "navy",
-            "virtual": true,
-            "pins": [
-              {
-                "index": "0",
-                "name": "NULL",
-                "value": "NULL"
-              }
-            ]
+            "blockColor": "navy"
           },
           "position": {
             "x": 1032,
@@ -1098,15 +583,7 @@
           "type": "basic.inputLabel",
           "data": {
             "name": "start",
-            "blockColor": "fuchsia",
-            "virtual": true,
-            "pins": [
-              {
-                "index": "0",
-                "name": "NULL",
-                "value": "NULL"
-              }
-            ]
+            "blockColor": "fuchsia"
           },
           "position": {
             "x": 1032,
@@ -1118,15 +595,7 @@
           "type": "basic.outputLabel",
           "data": {
             "name": "cmd",
-            "blockColor": "fuchsia",
-            "virtual": true,
-            "pins": [
-              {
-                "index": "0",
-                "name": "NULL",
-                "value": "NULL"
-              }
-            ]
+            "blockColor": "fuchsia"
           },
           "position": {
             "x": 1360,
@@ -1138,15 +607,7 @@
           "type": "basic.inputLabel",
           "data": {
             "name": "rs2",
-            "blockColor": "fuchsia",
-            "virtual": true,
-            "pins": [
-              {
-                "index": "0",
-                "name": "NULL",
-                "value": "NULL"
-              }
-            ]
+            "blockColor": "fuchsia"
           },
           "position": {
             "x": 2192,
@@ -1158,15 +619,7 @@
           "type": "basic.inputLabel",
           "data": {
             "name": "cmd2",
-            "blockColor": "fuchsia",
-            "virtual": true,
-            "pins": [
-              {
-                "index": "0",
-                "name": "NULL",
-                "value": "NULL"
-              }
-            ]
+            "blockColor": "fuchsia"
           },
           "position": {
             "x": 1680,
@@ -1191,15 +644,7 @@
           "type": "basic.outputLabel",
           "data": {
             "name": "rs1",
-            "blockColor": "fuchsia",
-            "virtual": true,
-            "pins": [
-              {
-                "index": "0",
-                "name": "NULL",
-                "value": "NULL"
-              }
-            ]
+            "blockColor": "fuchsia"
           },
           "position": {
             "x": 1872,
@@ -1211,15 +656,7 @@
           "type": "basic.outputLabel",
           "data": {
             "name": "busy_ini",
-            "blockColor": "navy",
-            "virtual": true,
-            "pins": [
-              {
-                "index": "0",
-                "name": "NULL",
-                "value": "NULL"
-              }
-            ]
+            "blockColor": "navy"
           },
           "position": {
             "x": 1872,
@@ -1231,15 +668,7 @@
           "type": "basic.outputLabel",
           "data": {
             "name": "busy_ini",
-            "blockColor": "navy",
-            "virtual": true,
-            "pins": [
-              {
-                "index": "0",
-                "name": "NULL",
-                "value": "NULL"
-              }
-            ]
+            "blockColor": "navy"
           },
           "position": {
             "x": 1360,
@@ -1251,15 +680,7 @@
           "type": "basic.outputLabel",
           "data": {
             "name": "busy2",
-            "blockColor": "navy",
-            "virtual": true,
-            "pins": [
-              {
-                "index": "0",
-                "name": "NULL",
-                "value": "NULL"
-              }
-            ]
+            "blockColor": "navy"
           },
           "position": {
             "x": 648,
@@ -1271,15 +692,7 @@
           "type": "basic.inputLabel",
           "data": {
             "name": "busy_ini",
-            "blockColor": "navy",
-            "virtual": true,
-            "pins": [
-              {
-                "index": "0",
-                "name": "NULL",
-                "value": "NULL"
-              }
-            ]
+            "blockColor": "navy"
           },
           "position": {
             "x": 936,
@@ -1293,49 +706,7 @@
             "name": "din_ini",
             "range": "[7:0]",
             "blockColor": "royalblue",
-            "virtual": true,
-            "pins": [
-              {
-                "index": "7",
-                "name": "NULL",
-                "value": "NULL"
-              },
-              {
-                "index": "6",
-                "name": "NULL",
-                "value": "NULL"
-              },
-              {
-                "index": "5",
-                "name": "NULL",
-                "value": "NULL"
-              },
-              {
-                "index": "4",
-                "name": "NULL",
-                "value": "NULL"
-              },
-              {
-                "index": "3",
-                "name": "NULL",
-                "value": "NULL"
-              },
-              {
-                "index": "2",
-                "name": "NULL",
-                "value": "NULL"
-              },
-              {
-                "index": "1",
-                "name": "NULL",
-                "value": "NULL"
-              },
-              {
-                "index": "0",
-                "name": "NULL",
-                "value": "NULL"
-              }
-            ]
+            "size": 8
           },
           "position": {
             "x": 1376,
@@ -1347,15 +718,7 @@
           "type": "basic.outputLabel",
           "data": {
             "name": "busy1",
-            "blockColor": "navy",
-            "virtual": true,
-            "pins": [
-              {
-                "index": "0",
-                "name": "NULL",
-                "value": "NULL"
-              }
-            ]
+            "blockColor": "navy"
           },
           "position": {
             "x": 650,
@@ -1367,15 +730,7 @@
           "type": "basic.outputLabel",
           "data": {
             "name": "write_ini",
-            "blockColor": "red",
-            "virtual": true,
-            "pins": [
-              {
-                "index": "0",
-                "name": "NULL",
-                "value": "NULL"
-              }
-            ]
+            "blockColor": "red"
           },
           "position": {
             "x": 1896,
@@ -1389,49 +744,7 @@
             "name": "din2",
             "range": "[7:0]",
             "blockColor": "royalblue",
-            "virtual": true,
-            "pins": [
-              {
-                "index": "7",
-                "name": "NULL",
-                "value": "NULL"
-              },
-              {
-                "index": "6",
-                "name": "NULL",
-                "value": "NULL"
-              },
-              {
-                "index": "5",
-                "name": "NULL",
-                "value": "NULL"
-              },
-              {
-                "index": "4",
-                "name": "NULL",
-                "value": "NULL"
-              },
-              {
-                "index": "3",
-                "name": "NULL",
-                "value": "NULL"
-              },
-              {
-                "index": "2",
-                "name": "NULL",
-                "value": "NULL"
-              },
-              {
-                "index": "1",
-                "name": "NULL",
-                "value": "NULL"
-              },
-              {
-                "index": "0",
-                "name": "NULL",
-                "value": "NULL"
-              }
-            ]
+            "size": 8
           },
           "position": {
             "x": 1704,
@@ -1443,15 +756,7 @@
           "type": "basic.inputLabel",
           "data": {
             "name": "write2",
-            "blockColor": "red",
-            "virtual": true,
-            "pins": [
-              {
-                "index": "0",
-                "name": "NULL",
-                "value": "NULL"
-              }
-            ]
+            "blockColor": "red"
           },
           "position": {
             "x": 2192,
@@ -1465,49 +770,7 @@
             "name": "din1",
             "range": "[7:0]",
             "blockColor": "royalblue",
-            "virtual": true,
-            "pins": [
-              {
-                "index": "7",
-                "name": "NULL",
-                "value": "NULL"
-              },
-              {
-                "index": "6",
-                "name": "NULL",
-                "value": "NULL"
-              },
-              {
-                "index": "5",
-                "name": "NULL",
-                "value": "NULL"
-              },
-              {
-                "index": "4",
-                "name": "NULL",
-                "value": "NULL"
-              },
-              {
-                "index": "3",
-                "name": "NULL",
-                "value": "NULL"
-              },
-              {
-                "index": "2",
-                "name": "NULL",
-                "value": "NULL"
-              },
-              {
-                "index": "1",
-                "name": "NULL",
-                "value": "NULL"
-              },
-              {
-                "index": "0",
-                "name": "NULL",
-                "value": "NULL"
-              }
-            ]
+            "size": 8
           },
           "position": {
             "x": 1376,
@@ -1519,15 +782,7 @@
           "type": "basic.outputLabel",
           "data": {
             "name": "write1",
-            "blockColor": "red",
-            "virtual": true,
-            "pins": [
-              {
-                "index": "0",
-                "name": "NULL",
-                "value": "NULL"
-              }
-            ]
+            "blockColor": "red"
           },
           "position": {
             "x": 1896,
@@ -1539,15 +794,7 @@
           "type": "basic.outputLabel",
           "data": {
             "name": "busy_ini",
-            "blockColor": "navy",
-            "virtual": true,
-            "pins": [
-              {
-                "index": "0",
-                "name": "NULL",
-                "value": "NULL"
-              }
-            ]
+            "blockColor": "navy"
           },
           "position": {
             "x": 1896,
@@ -1559,15 +806,7 @@
           "type": "basic.outputLabel",
           "data": {
             "name": "busy_ini",
-            "blockColor": "navy",
-            "virtual": true,
-            "pins": [
-              {
-                "index": "0",
-                "name": "NULL",
-                "value": "NULL"
-              }
-            ]
+            "blockColor": "navy"
           },
           "position": {
             "x": 1368,
@@ -3857,7 +3096,7 @@
       "package": {
         "name": "LCD-config",
         "version": "0.2",
-        "description": "Enviar los comandos de inicialización y configuración al controlador del LCD (de nivel 1)",
+        "description": "LCD-config: Enviar los comandos de inicialización y configuración al controlador del LCD (de nivel 1)",
         "author": "Juan González-Gómez (Obijuan)",
         "image": "%3Csvg%20width=%22438.076%22%20height=%22589.782%22%20viewBox=%220%200%20115.90764%20156.04659%22%20xmlns=%22http://www.w3.org/2000/svg%22%3E%3Cpath%20d=%22M115.47%2064.442c0%203.015-1.96%202.635-3.282%202.635H2.838c-1.322%200-2.4-1.094-2.4-4.108V3.047C.438.026%201.516.475%202.838.475h109.35c1.322%200%203.282-.442%203.282%202.572z%22%20fill=%22#87ad34%22%20stroke=%22#303030%22%20stroke-width=%22.876%22/%3E%3Cpath%20d=%22M8.827%208.843h6.08v6.22h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M14.908%208.843h6.08v6.22h-6.08zm6.08%200h6.073v6.22H20.99zm6.082%200h6.064v6.22H27.07zm6.064%200h6.081v6.22h-6.072z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M8.827%2015.072h6.08v6.211h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M14.908%2015.072h6.08v6.211h-6.08zm6.08%200h6.073v6.211H20.99zm6.082%200h6.064v6.211H27.07zm6.064%200h6.081v6.211h-6.072z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M8.827%2021.283h6.08v6.229h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M14.908%2021.283h6.08v6.229h-6.08zm6.08%200h6.073v6.229H20.99zm6.082%200h6.064v6.229H27.07zm6.064%200h6.081v6.229h-6.072z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M8.827%2027.512h6.08v6.228h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M14.908%2027.512h6.08v6.228h-6.08zm6.08%200h6.073v6.228H20.99zm6.082%200h6.064v6.228H27.07zm6.064%200h6.081v6.228h-6.072z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M8.827%2033.74h6.08v6.229h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M14.908%2033.74h6.08v6.229h-6.08zm6.08%200h6.073v6.229H20.99zm6.082%200h6.064v6.229H27.07zm6.064%200h6.081v6.229h-6.072z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M8.827%2039.969h6.08v6.22h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M14.908%2039.969h6.08v6.22h-6.08zm6.08%200h6.073v6.22H20.99zm6.082%200h6.064v6.22H27.07zm6.064%200h6.081v6.22h-6.072z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M8.827%2046.189h6.08v6.228h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M14.908%2046.189h6.08v6.228h-6.08zm6.08%200h6.073v6.228H20.99zm6.082%200h6.064v6.228H27.07zm6.064%200h6.081v6.228h-6.072z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M8.827%2052.417h6.08v6.22h-6.08zm6.08%200h6.082v6.22h-6.081zm6.082%200h6.072v6.22H20.99zm6.08%200h6.065v6.22H27.07zm6.065%200h6.081v6.22h-6.072z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M42.256%208.843h6.08v6.22h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M48.337%208.843h6.072v6.22h-6.072zm6.072%200h6.081v6.22h-6.08zm6.081%200h6.081v6.22h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M66.571%208.843h6.073v6.22h-6.073z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M42.256%2015.072h6.08v6.211h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M48.337%2015.072h6.072v6.211h-6.072zm6.072%200h6.081v6.211h-6.08zm6.081%200h6.081v6.211h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M66.571%2015.072h6.073v6.211h-6.073zm-24.315%206.211h6.08v6.229h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M48.337%2021.283h6.072v6.229h-6.072zm6.072%200h6.081v6.229h-6.08zm6.081%200h6.081v6.229h-6.08zm6.081%200h6.073v6.229h-6.073z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M42.256%2027.512h6.08v6.228h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M48.337%2027.512h6.072v6.228h-6.072zm6.072%200h6.081v6.228h-6.08zm6.081%200h6.081v6.228h-6.08zm6.081%200h6.073v6.228h-6.073z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M42.256%2033.74h6.08v6.229h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M48.337%2033.74h6.072v6.229h-6.072zm6.072%200h6.081v6.229h-6.08zm6.081%200h6.081v6.229h-6.08zm6.081%200h6.073v6.229h-6.073z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M42.256%2039.969h6.08v6.22h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M48.337%2039.969h6.072v6.22h-6.072zm6.072%200h6.081v6.22h-6.08zm6.081%200h6.081v6.22h-6.08zm6.081%200h6.073v6.22h-6.073z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M42.256%2046.189h6.08v6.228h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M48.337%2046.189h6.072v6.228h-6.072zm6.072%200h6.081v6.228h-6.08zm6.081%200h6.081v6.228h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M66.571%2046.189h6.073v6.228h-6.073z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M42.256%2052.417h6.08v6.22h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M48.337%2052.417h6.072v6.22h-6.072zm6.072%200h6.081v6.22h-6.08zm6.081%200h6.081v6.22h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M66.571%2052.417h6.073v6.22h-6.073z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M75.685%208.843h6.08v6.22h-6.08zm6.08%200h6.073v6.22h-6.072zm6.073%200h6.081v6.22h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M93.92%208.843h6.072v6.22h-6.073zM99.992%208.843h6.08v6.22h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M75.685%2015.072h6.08v6.211h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M81.766%2015.072h6.072v6.211h-6.072zm6.072%200h6.081v6.211h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M93.92%2015.072h6.072v6.211h-6.073z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M99.992%2015.072h6.08v6.211h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M75.685%2021.283h6.08v6.229h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M81.766%2021.283h6.072v6.229h-6.072zm6.072%200h6.081v6.229h-6.08zm6.081%200h6.073v6.229h-6.073z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M99.992%2021.283h6.08v6.229h-6.08zm-24.307%206.229h6.08v6.228h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M81.766%2027.512h6.072v6.228h-6.072zm6.072%200h6.081v6.228h-6.08zm6.081%200h6.073v6.228h-6.073z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M99.992%2027.512h6.08v6.228h-6.08zM75.685%2033.74h6.08v6.229h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M81.766%2033.74h6.072v6.229h-6.072zm6.072%200h6.081v6.229h-6.08zm6.081%200h6.073v6.229h-6.073z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M99.992%2033.74h6.08v6.229h-6.08zM75.685%2039.97h6.08v6.22h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M81.766%2039.969h6.072v6.22h-6.072zm6.072%200h6.081v6.22h-6.08zm6.081%200h6.073v6.22h-6.073z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M99.992%2039.969h6.08v6.22h-6.08zm-24.307%206.22h6.08v6.228h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M81.766%2046.189h6.072v6.228h-6.072zm6.072%200h6.081v6.228h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M93.92%2046.189h6.072v6.228h-6.073z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M99.992%2046.189h6.08v6.228h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M75.685%2052.417h6.08v6.22h-6.08zm6.08%200h6.073v6.22h-6.072zm6.073%200h6.081v6.22h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M93.92%2052.417h6.072v6.22h-6.073zM99.992%2052.417h6.08v6.22h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M99.01%20147.136a3.474%203.474%200%200%201%200%204.912l-2.806%202.808a3.476%203.476%200%200%201-4.914%200l-19.827-19.829%207.72-7.72z%22%20fill=%22#08a%22/%3E%3Cpath%20fill=%22#999%22%20d=%22M57.214%20109.02l6.388%206.388%2011.615%2011.614-4.04%204.038-11.613-11.612-6.388-6.388-24.503-24.501-.136.135-4.752-.439-7.256-11.569%204.314-4.311%2011.569%207.255.439%204.75-.138.138z%22/%3E%3Cpath%20d=%22M80.798%20123.804l-1.396%203.721-7.72%207.72-3.722%201.396a.812.812%200%200%201-.86-.186l-1.903-1.902a.812.812%200%200%201%200-1.148l4.16-4.163%204.04-4.038%204.162-4.163a.811.811%200%200%201%201.148%200l1.904%201.904a.81.81%200%200%201%20.187.859z%22%20fill=%22#006680%22/%3E%3Cpath%20d=%22M91.963%2075.24c4.551%204.272%204.639%2011.43.257%2015.81a10.952%2010.952%200%200%201-4.396%202.69c-2.44.786-4.67%202.116-6.483%203.93l-19.7%2019.7-6.389-6.39%2013.662-13.66c3.372-3.373%205.117-8.086%204.589-12.826a10.983%2010.983%200%200%201%203.684-9.505%2010.888%2010.888%200%200%201%205.463-2.57l-2.054%206.583a4.87%204.87%200%200%200-.222%201.452%204.867%204.867%200%200%200%209.511%201.446z%22%20fill=%22#999%22/%3E%3Cpath%20d=%22M62.694%20116.948l-14.419%2014.416c-3.372%203.373-5.12%208.086-4.588%2012.825a10.993%2010.993%200%200%201-3.685%209.507%2010.922%2010.922%200%200%201-5.462%202.569l2.053-6.58a4.866%204.866%200%200%200-3.195-6.094v-.002a4.865%204.865%200%200%200-6.094%203.197l-2.079%206.657c-4.552-4.272-4.64-11.427-.258-15.808a10.946%2010.946%200%200%201%204.397-2.69c2.442-.787%204.672-2.117%206.484-3.93l20.458-20.455z%22%20fill=%22#999%22/%3E%3C/svg%3E",
         "otid": 1666014804996
@@ -13718,8 +12957,8 @@
     "619049c51d21132600a99f750206d8efd256613a": {
       "package": {
         "name": "LCD-write-open-4bits",
-        "version": "0.2",
-        "description": "Controlador de escritura, en bucle abierto, de un LCD con interfaz de 4 bits",
+        "version": "0.4",
+        "description": "LCD-write-open-4-bits: Controlador de escritura, en bucle abierto, de un LCD con interfaz de 4 bits",
         "author": "Juan González-Gómez (Obijuan)",
         "image": "%3Csvg%20width=%22438.076%22%20height=%22365.454%22%20viewBox=%220%200%20115.90764%2096.692992%22%20xmlns=%22http://www.w3.org/2000/svg%22%3E%3Cpath%20d=%22M115.47%2064.442c0%203.015-1.96%202.635-3.282%202.635H2.838c-1.322%200-2.4-1.094-2.4-4.108V3.047C.438.026%201.516.475%202.838.475h109.35c1.322%200%203.282-.442%203.282%202.572z%22%20fill=%22#87ad34%22%20stroke=%22#303030%22%20stroke-width=%22.876%22/%3E%3Cpath%20d=%22M8.827%208.843h6.08v6.22h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M14.908%208.843h6.08v6.22h-6.08zm6.08%200h6.073v6.22H20.99zm6.082%200h6.064v6.22H27.07zm6.064%200h6.081v6.22h-6.072z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M8.827%2015.072h6.08v6.211h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M14.908%2015.072h6.08v6.211h-6.08zm6.08%200h6.073v6.211H20.99zm6.082%200h6.064v6.211H27.07zm6.064%200h6.081v6.211h-6.072z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M8.827%2021.283h6.08v6.229h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M14.908%2021.283h6.08v6.229h-6.08zm6.08%200h6.073v6.229H20.99zm6.082%200h6.064v6.229H27.07zm6.064%200h6.081v6.229h-6.072z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M8.827%2027.512h6.08v6.228h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M14.908%2027.512h6.08v6.228h-6.08zm6.08%200h6.073v6.228H20.99zm6.082%200h6.064v6.228H27.07zm6.064%200h6.081v6.228h-6.072z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M8.827%2033.74h6.08v6.229h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M14.908%2033.74h6.08v6.229h-6.08zm6.08%200h6.073v6.229H20.99zm6.082%200h6.064v6.229H27.07zm6.064%200h6.081v6.229h-6.072z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M8.827%2039.969h6.08v6.22h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M14.908%2039.969h6.08v6.22h-6.08zm6.08%200h6.073v6.22H20.99zm6.082%200h6.064v6.22H27.07zm6.064%200h6.081v6.22h-6.072z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M8.827%2046.189h6.08v6.228h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M14.908%2046.189h6.08v6.228h-6.08zm6.08%200h6.073v6.228H20.99zm6.082%200h6.064v6.228H27.07zm6.064%200h6.081v6.228h-6.072z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M8.827%2052.417h6.08v6.22h-6.08zm6.08%200h6.082v6.22h-6.081zm6.082%200h6.072v6.22H20.99zm6.08%200h6.065v6.22H27.07zm6.065%200h6.081v6.22h-6.072z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M42.256%208.843h6.08v6.22h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M48.337%208.843h6.072v6.22h-6.072zm6.072%200h6.081v6.22h-6.08zm6.081%200h6.081v6.22h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M66.571%208.843h6.073v6.22h-6.073z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M42.256%2015.072h6.08v6.211h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M48.337%2015.072h6.072v6.211h-6.072zm6.072%200h6.081v6.211h-6.08zm6.081%200h6.081v6.211h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M66.571%2015.072h6.073v6.211h-6.073zm-24.315%206.211h6.08v6.229h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M48.337%2021.283h6.072v6.229h-6.072zm6.072%200h6.081v6.229h-6.08zm6.081%200h6.081v6.229h-6.08zm6.081%200h6.073v6.229h-6.073z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M42.256%2027.512h6.08v6.228h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M48.337%2027.512h6.072v6.228h-6.072zm6.072%200h6.081v6.228h-6.08zm6.081%200h6.081v6.228h-6.08zm6.081%200h6.073v6.228h-6.073z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M42.256%2033.74h6.08v6.229h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M48.337%2033.74h6.072v6.229h-6.072zm6.072%200h6.081v6.229h-6.08zm6.081%200h6.081v6.229h-6.08zm6.081%200h6.073v6.229h-6.073z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M42.256%2039.969h6.08v6.22h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M48.337%2039.969h6.072v6.22h-6.072zm6.072%200h6.081v6.22h-6.08zm6.081%200h6.081v6.22h-6.08zm6.081%200h6.073v6.22h-6.073z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M42.256%2046.189h6.08v6.228h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M48.337%2046.189h6.072v6.228h-6.072zm6.072%200h6.081v6.228h-6.08zm6.081%200h6.081v6.228h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M66.571%2046.189h6.073v6.228h-6.073z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M42.256%2052.417h6.08v6.22h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M48.337%2052.417h6.072v6.22h-6.072zm6.072%200h6.081v6.22h-6.08zm6.081%200h6.081v6.22h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M66.571%2052.417h6.073v6.22h-6.073z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M75.685%208.843h6.08v6.22h-6.08zm6.08%200h6.073v6.22h-6.072zm6.073%200h6.081v6.22h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M93.92%208.843h6.072v6.22h-6.073zM99.992%208.843h6.08v6.22h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M75.685%2015.072h6.08v6.211h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M81.766%2015.072h6.072v6.211h-6.072zm6.072%200h6.081v6.211h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M93.92%2015.072h6.072v6.211h-6.073z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M99.992%2015.072h6.08v6.211h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M75.685%2021.283h6.08v6.229h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M81.766%2021.283h6.072v6.229h-6.072zm6.072%200h6.081v6.229h-6.08zm6.081%200h6.073v6.229h-6.073z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M99.992%2021.283h6.08v6.229h-6.08zm-24.307%206.229h6.08v6.228h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M81.766%2027.512h6.072v6.228h-6.072zm6.072%200h6.081v6.228h-6.08zm6.081%200h6.073v6.228h-6.073z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M99.992%2027.512h6.08v6.228h-6.08zM75.685%2033.74h6.08v6.229h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M81.766%2033.74h6.072v6.229h-6.072zm6.072%200h6.081v6.229h-6.08zm6.081%200h6.073v6.229h-6.073z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M99.992%2033.74h6.08v6.229h-6.08zM75.685%2039.97h6.08v6.22h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M81.766%2039.969h6.072v6.22h-6.072zm6.072%200h6.081v6.22h-6.08zm6.081%200h6.073v6.22h-6.073z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M99.992%2039.969h6.08v6.22h-6.08zm-24.307%206.22h6.08v6.228h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M81.766%2046.189h6.072v6.228h-6.072zm6.072%200h6.081v6.228h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M93.92%2046.189h6.072v6.228h-6.073z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M99.992%2046.189h6.08v6.228h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M75.685%2052.417h6.08v6.22h-6.08zm6.08%200h6.073v6.22h-6.072zm6.073%200h6.081v6.22h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M93.92%2052.417h6.072v6.22h-6.073zM99.992%2052.417h6.08v6.22h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Ctext%20style=%22line-height:1.25%22%20x=%2263.195%22%20y=%22135.949%22%20font-size=%2227.558%22%20font-family=%22sans-serif%22%20fill=%22#00f%22%20stroke-width=%22.689%22%20transform=%22translate(-47.487%20-39.646)%22%3E%3Ctspan%20style=%22-inkscape-font-specification:'sans-serif%20Bold'%22%20x=%2263.195%22%20y=%22135.949%22%20font-weight=%22700%22%3EWrite%3C/tspan%3E%3C/text%3E%3C/svg%3E",
         "otid": 1661596668464
@@ -17030,7 +16269,7 @@
       "package": {
         "name": "LCD-cycle-ns",
         "version": "0.4",
-        "description": "Generar un ciclo en la señal E del LCD",
+        "description": "LCD-cycle-ns: Generar un ciclo en la señal E del LCD. Periodo en nanosegundos",
         "author": "Juan González-Gómez (Obijuan)",
         "image": "%3Csvg%20width=%22449.765%22%20height=%22518.654%22%20viewBox=%220%200%20119.0004%20137.22732%22%20xmlns=%22http://www.w3.org/2000/svg%22%3E%3Cpath%20d=%22M117.016%2064.442c0%203.015-1.96%202.635-3.282%202.635H4.384c-1.322%200-2.4-1.094-2.4-4.108V3.047c0-3.021%201.078-2.572%202.4-2.572h109.35c1.322%200%203.282-.442%203.282%202.572z%22%20fill=%22#87ad34%22%20stroke=%22#303030%22%20stroke-width=%22.876%22/%3E%3Cpath%20d=%22M10.373%208.843h6.081v6.22h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M16.454%208.843h6.081v6.22h-6.08zm6.081%200h6.073v6.22h-6.073zm6.081%200h6.064v6.22h-6.064zm6.064%200h6.082v6.22h-6.073z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M10.373%2015.072h6.081v6.211h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M16.454%2015.072h6.081v6.211h-6.08zm6.081%200h6.073v6.211h-6.073zm6.081%200h6.064v6.211h-6.064zm6.064%200h6.082v6.211h-6.073z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M10.373%2021.283h6.081v6.229h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M16.454%2021.283h6.081v6.229h-6.08zm6.081%200h6.073v6.229h-6.073zm6.081%200h6.064v6.229h-6.064zm6.064%200h6.082v6.229h-6.073z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M10.373%2027.512h6.081v6.228h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M16.454%2027.512h6.081v6.228h-6.08zm6.081%200h6.073v6.228h-6.073zm6.081%200h6.064v6.228h-6.064zm6.064%200h6.082v6.228h-6.073z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M10.373%2033.74h6.081v6.229h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M16.454%2033.74h6.081v6.229h-6.08zm6.081%200h6.073v6.229h-6.073zm6.081%200h6.064v6.229h-6.064zm6.064%200h6.082v6.229h-6.073z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M10.373%2039.969h6.081v6.22h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M16.454%2039.969h6.081v6.22h-6.08zm6.081%200h6.073v6.22h-6.073zm6.081%200h6.064v6.22h-6.064zm6.064%200h6.082v6.22h-6.073z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M10.373%2046.189h6.081v6.228h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M16.454%2046.189h6.081v6.228h-6.08zm6.081%200h6.073v6.228h-6.073zm6.081%200h6.064v6.228h-6.064zm6.064%200h6.082v6.228h-6.073z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M10.373%2052.417h6.081v6.22h-6.08zm6.081%200h6.081v6.22h-6.08zm6.081%200h6.073v6.22h-6.073zm6.081%200h6.064v6.22h-6.064zm6.064%200h6.082v6.22h-6.073z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M43.802%208.843h6.081v6.22h-6.081z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M49.883%208.843h6.073v6.22h-6.073zm6.073%200h6.08v6.22h-6.08zm6.08%200h6.082v6.22h-6.081z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M68.118%208.843h6.072v6.22h-6.072z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M43.802%2015.072h6.081v6.211h-6.081z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M49.883%2015.072h6.073v6.211h-6.073zm6.073%200h6.08v6.211h-6.08zm6.08%200h6.082v6.211h-6.081z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M68.118%2015.072h6.072v6.211h-6.072zm-24.316%206.211h6.081v6.229h-6.081z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M49.883%2021.283h6.073v6.229h-6.073zm6.073%200h6.08v6.229h-6.08zm6.08%200h6.082v6.229h-6.081zm6.082%200h6.072v6.229h-6.072z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M43.802%2027.512h6.081v6.228h-6.081z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M49.883%2027.512h6.073v6.228h-6.073zm6.073%200h6.08v6.228h-6.08zm6.08%200h6.082v6.228h-6.081zm6.082%200h6.072v6.228h-6.072z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M43.802%2033.74h6.081v6.229h-6.081z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M49.883%2033.74h6.073v6.229h-6.073zm6.073%200h6.08v6.229h-6.08zm6.08%200h6.082v6.229h-6.081zm6.082%200h6.072v6.229h-6.072z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M43.802%2039.969h6.081v6.22h-6.081z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M49.883%2039.969h6.073v6.22h-6.073zm6.073%200h6.08v6.22h-6.08zm6.08%200h6.082v6.22h-6.081zm6.082%200h6.072v6.22h-6.072z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M43.802%2046.189h6.081v6.228h-6.081z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M49.883%2046.189h6.073v6.228h-6.073zm6.073%200h6.08v6.228h-6.08zm6.08%200h6.082v6.228h-6.081z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M68.118%2046.189h6.072v6.228h-6.072z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M43.802%2052.417h6.081v6.22h-6.081z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M49.883%2052.417h6.073v6.22h-6.073zm6.073%200h6.08v6.22h-6.08zm6.08%200h6.082v6.22h-6.081z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M68.118%2052.417h6.072v6.22h-6.072z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M77.23%208.843h6.082v6.22H77.23zm6.082%200h6.073v6.22h-6.073zm6.073%200h6.08v6.22h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M95.466%208.843h6.072v6.22h-6.072zM101.538%208.843h6.081v6.22h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M77.23%2015.072h6.082v6.211H77.23z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M83.312%2015.072h6.073v6.211h-6.073zm6.073%200h6.08v6.211h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M95.466%2015.072h6.072v6.211h-6.072z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M101.538%2015.072h6.081v6.211h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M77.23%2021.283h6.082v6.229H77.23z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M83.312%2021.283h6.073v6.229h-6.073zm6.073%200h6.08v6.229h-6.08zm6.08%200h6.073v6.229h-6.072z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M101.538%2021.283h6.081v6.229h-6.08zm-24.307%206.229h6.08v6.228h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M83.312%2027.512h6.073v6.228h-6.073zm6.073%200h6.08v6.228h-6.08zm6.08%200h6.073v6.228h-6.072z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M101.538%2027.512h6.081v6.228h-6.08zM77.231%2033.74h6.08v6.229h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M83.312%2033.74h6.073v6.229h-6.073zm6.073%200h6.08v6.229h-6.08zm6.08%200h6.073v6.229h-6.072z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M101.538%2033.74h6.081v6.229h-6.08zM77.231%2039.97h6.08v6.22h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M83.312%2039.969h6.073v6.22h-6.073zm6.073%200h6.08v6.22h-6.08zm6.08%200h6.073v6.22h-6.072z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M101.538%2039.969h6.081v6.22h-6.08zm-24.307%206.22h6.08v6.228h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M83.312%2046.189h6.073v6.228h-6.073zm6.073%200h6.08v6.228h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M95.466%2046.189h6.072v6.228h-6.072z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M101.538%2046.189h6.081v6.228h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M77.23%2052.417h6.082v6.22H77.23zm6.082%200h6.073v6.22h-6.073zm6.073%200h6.08v6.22h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M95.466%2052.417h6.072v6.22h-6.072zM101.538%2052.417h6.081v6.22h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Ctext%20style=%22line-height:1.25%22%20x=%2263.06%22%20y=%22170.926%22%20font-size=%2227.558%22%20font-family=%22sans-serif%22%20fill=%22#00f%22%20stroke-width=%22.689%22%20transform=%22translate(-45.94%20-39.646)%22%3E%3Ctspan%20style=%22-inkscape-font-specification:'sans-serif%20Bold'%22%20x=%2263.06%22%20y=%22170.926%22%20font-weight=%22700%22%3ECycle%3C/tspan%3E%3C/text%3E%3Cpath%20d=%22M117.016%20101.373l-29.216-.207-5.617-20.42H33.282l-5.471%2020.42-25.827.207%22%20fill=%22none%22%20stroke=%22green%22%20stroke-width=%223.969%22%20stroke-linecap=%22round%22/%3E%3C/svg%3E",
         "otid": 1658901385846
@@ -17634,7 +16873,7 @@
       "package": {
         "name": "LCD-cycle",
         "version": "0.4",
-        "description": "Generar un ciclo en la señal E del LCD",
+        "description": "LCD-cycle: Generar un ciclo en la señal E del LCD",
         "author": "Juan González-Gómez (Obijuan)",
         "image": "%3Csvg%20width=%22449.765%22%20height=%22518.654%22%20viewBox=%220%200%20119.0004%20137.22732%22%20xmlns=%22http://www.w3.org/2000/svg%22%3E%3Cpath%20d=%22M117.016%2064.442c0%203.015-1.96%202.635-3.282%202.635H4.384c-1.322%200-2.4-1.094-2.4-4.108V3.047c0-3.021%201.078-2.572%202.4-2.572h109.35c1.322%200%203.282-.442%203.282%202.572z%22%20fill=%22#87ad34%22%20stroke=%22#303030%22%20stroke-width=%22.876%22/%3E%3Cpath%20d=%22M10.373%208.843h6.081v6.22h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M16.454%208.843h6.081v6.22h-6.08zm6.081%200h6.073v6.22h-6.073zm6.081%200h6.064v6.22h-6.064zm6.064%200h6.082v6.22h-6.073z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M10.373%2015.072h6.081v6.211h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M16.454%2015.072h6.081v6.211h-6.08zm6.081%200h6.073v6.211h-6.073zm6.081%200h6.064v6.211h-6.064zm6.064%200h6.082v6.211h-6.073z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M10.373%2021.283h6.081v6.229h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M16.454%2021.283h6.081v6.229h-6.08zm6.081%200h6.073v6.229h-6.073zm6.081%200h6.064v6.229h-6.064zm6.064%200h6.082v6.229h-6.073z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M10.373%2027.512h6.081v6.228h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M16.454%2027.512h6.081v6.228h-6.08zm6.081%200h6.073v6.228h-6.073zm6.081%200h6.064v6.228h-6.064zm6.064%200h6.082v6.228h-6.073z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M10.373%2033.74h6.081v6.229h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M16.454%2033.74h6.081v6.229h-6.08zm6.081%200h6.073v6.229h-6.073zm6.081%200h6.064v6.229h-6.064zm6.064%200h6.082v6.229h-6.073z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M10.373%2039.969h6.081v6.22h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M16.454%2039.969h6.081v6.22h-6.08zm6.081%200h6.073v6.22h-6.073zm6.081%200h6.064v6.22h-6.064zm6.064%200h6.082v6.22h-6.073z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M10.373%2046.189h6.081v6.228h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M16.454%2046.189h6.081v6.228h-6.08zm6.081%200h6.073v6.228h-6.073zm6.081%200h6.064v6.228h-6.064zm6.064%200h6.082v6.228h-6.073z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M10.373%2052.417h6.081v6.22h-6.08zm6.081%200h6.081v6.22h-6.08zm6.081%200h6.073v6.22h-6.073zm6.081%200h6.064v6.22h-6.064zm6.064%200h6.082v6.22h-6.073z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M43.802%208.843h6.081v6.22h-6.081z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M49.883%208.843h6.073v6.22h-6.073zm6.073%200h6.08v6.22h-6.08zm6.08%200h6.082v6.22h-6.081z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M68.118%208.843h6.072v6.22h-6.072z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M43.802%2015.072h6.081v6.211h-6.081z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M49.883%2015.072h6.073v6.211h-6.073zm6.073%200h6.08v6.211h-6.08zm6.08%200h6.082v6.211h-6.081z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M68.118%2015.072h6.072v6.211h-6.072zm-24.316%206.211h6.081v6.229h-6.081z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M49.883%2021.283h6.073v6.229h-6.073zm6.073%200h6.08v6.229h-6.08zm6.08%200h6.082v6.229h-6.081zm6.082%200h6.072v6.229h-6.072z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M43.802%2027.512h6.081v6.228h-6.081z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M49.883%2027.512h6.073v6.228h-6.073zm6.073%200h6.08v6.228h-6.08zm6.08%200h6.082v6.228h-6.081zm6.082%200h6.072v6.228h-6.072z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M43.802%2033.74h6.081v6.229h-6.081z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M49.883%2033.74h6.073v6.229h-6.073zm6.073%200h6.08v6.229h-6.08zm6.08%200h6.082v6.229h-6.081zm6.082%200h6.072v6.229h-6.072z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M43.802%2039.969h6.081v6.22h-6.081z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M49.883%2039.969h6.073v6.22h-6.073zm6.073%200h6.08v6.22h-6.08zm6.08%200h6.082v6.22h-6.081zm6.082%200h6.072v6.22h-6.072z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M43.802%2046.189h6.081v6.228h-6.081z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M49.883%2046.189h6.073v6.228h-6.073zm6.073%200h6.08v6.228h-6.08zm6.08%200h6.082v6.228h-6.081z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M68.118%2046.189h6.072v6.228h-6.072z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M43.802%2052.417h6.081v6.22h-6.081z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M49.883%2052.417h6.073v6.22h-6.073zm6.073%200h6.08v6.22h-6.08zm6.08%200h6.082v6.22h-6.081z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M68.118%2052.417h6.072v6.22h-6.072z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M77.23%208.843h6.082v6.22H77.23zm6.082%200h6.073v6.22h-6.073zm6.073%200h6.08v6.22h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M95.466%208.843h6.072v6.22h-6.072zM101.538%208.843h6.081v6.22h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M77.23%2015.072h6.082v6.211H77.23z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M83.312%2015.072h6.073v6.211h-6.073zm6.073%200h6.08v6.211h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M95.466%2015.072h6.072v6.211h-6.072z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M101.538%2015.072h6.081v6.211h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M77.23%2021.283h6.082v6.229H77.23z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M83.312%2021.283h6.073v6.229h-6.073zm6.073%200h6.08v6.229h-6.08zm6.08%200h6.073v6.229h-6.072z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M101.538%2021.283h6.081v6.229h-6.08zm-24.307%206.229h6.08v6.228h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M83.312%2027.512h6.073v6.228h-6.073zm6.073%200h6.08v6.228h-6.08zm6.08%200h6.073v6.228h-6.072z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M101.538%2027.512h6.081v6.228h-6.08zM77.231%2033.74h6.08v6.229h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M83.312%2033.74h6.073v6.229h-6.073zm6.073%200h6.08v6.229h-6.08zm6.08%200h6.073v6.229h-6.072z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M101.538%2033.74h6.081v6.229h-6.08zM77.231%2039.97h6.08v6.22h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M83.312%2039.969h6.073v6.22h-6.073zm6.073%200h6.08v6.22h-6.08zm6.08%200h6.073v6.22h-6.072z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M101.538%2039.969h6.081v6.22h-6.08zm-24.307%206.22h6.08v6.228h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M83.312%2046.189h6.073v6.228h-6.073zm6.073%200h6.08v6.228h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M95.466%2046.189h6.072v6.228h-6.072z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M101.538%2046.189h6.081v6.228h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Cpath%20d=%22M77.23%2052.417h6.082v6.22H77.23zm6.082%200h6.073v6.22h-6.073zm6.073%200h6.08v6.22h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.866%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22/%3E%3Cpath%20d=%22M95.466%2052.417h6.072v6.22h-6.072zM101.538%2052.417h6.081v6.22h-6.08z%22%20opacity=%22.99%22%20fill=%22#1a1a1a%22%20fill-opacity=%22.102%22%20stroke=%22#1a1a1a%22%20stroke-width=%22.072%22%20stroke-opacity=%22.102%22/%3E%3Ctext%20style=%22line-height:1.25%22%20x=%2263.06%22%20y=%22170.926%22%20font-size=%2227.558%22%20font-family=%22sans-serif%22%20fill=%22#00f%22%20stroke-width=%22.689%22%20transform=%22translate(-45.94%20-39.646)%22%3E%3Ctspan%20style=%22-inkscape-font-specification:'sans-serif%20Bold'%22%20x=%2263.06%22%20y=%22170.926%22%20font-weight=%22700%22%3ECycle%3C/tspan%3E%3C/text%3E%3Cpath%20d=%22M117.016%20101.373l-29.216-.207-5.617-20.42H33.282l-5.471%2020.42-25.827.207%22%20fill=%22none%22%20stroke=%22green%22%20stroke-width=%223.969%22%20stroke-linecap=%22round%22/%3E%3C/svg%3E",
         "otid": 1658901385846
